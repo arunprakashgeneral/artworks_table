@@ -1,0 +1,140 @@
+.btn{
+    padding: 4px;
+    margin: 8px;
+    border: none;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 4.4rem;
+    left: 3rem;
+    z-index: 100;
+}
+
+.column{
+    padding: 1rem;
+    background-color: white;
+    border-bottom: 2px solid whitesmoke;
+}
+.p-checkbox {
+    margin: 0 10px; 
+}
+
+.p-checkbox-input {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #007ad9; 
+    border-radius: 4px; 
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.p-checkbox-box{
+    display: none;
+}
+.artworks-table th{
+    background-color: whitesmoke;
+}
+
+.artworks-table th, .artworks-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.artworks-table tbody :hover {
+    background-color: whitesmoke; 
+}
+
+.p-paginator {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #f1f1f1; 
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.p-paginator .p-paginator-pages {
+    display: flex;
+    gap: 5px; 
+}
+
+.p-paginator .p-paginator-page {
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.p-paginator .p-paginator-page:hover {
+    background-color: #e0e0e0; 
+}
+
+.p-paginator .p-paginator-page.p-highlight {
+    background-color: #007ad9;
+    color: #fff;
+    border-color: #007ad9;
+}
+
+.p-paginator .p-paginator-prev, .p-paginator .p-paginator-next {
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: #007ad9;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.p-paginator .p-paginator-prev:hover, .p-paginator .p-paginator-next:hover {
+    background-color: #005bb5;
+}
+
+.p-paginator .p-disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.p-paginator .p-paginator-prev, .p-paginator .p-paginator-next {
+    margin: 0 5px;
+}
+
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; 
+}
+
+
+.p-progress-spinner {
+    width: 50px;
+    height: 50px;
+}
+
+.custom-overlay-panel {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out; 
+    transform: scale(1); 
+    opacity: 1; 
+}
+
+.custom-overlay-submit {
+    background-color: #007ad9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-overlay-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}

@@ -38,12 +38,13 @@ export default function App() {
  
   //Fetch additional data in next page
 const fetchAdditionalData = async (pagesToFetch)=>{
+  let additionalData = []
   try {
     for(let i =1;i<=pagesToFetch;i++){
       const response = await axios.get(`https://api.artic.edu/api/v1/artworks?page=${page+i}`)
-      console.log(response);  
-      return response.data.data
+      additionalData = additionalData.concat(response.data.data) 
     }
+    return additionalData 
   } catch (error) {
     console.log(error);
   }
